@@ -1,0 +1,12 @@
+
+CREATE USER C##KIM IDENTIFIED BY 1234;
+
+GRANT connect, resource, dba TO C##KIM;
+
+CREATE TABLE TBL_TEST (
+UNIQUE_NUMBER number
+, ID1 varchar2(100)
+, PASSWD varchar2(100)
+, NAME varchar2(90)
+, ADDR varchar2(900)
+);
